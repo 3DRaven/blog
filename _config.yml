@@ -4,3 +4,4 @@ lang: ru
 theme: minima
 baseurl: "/blog"
 url: "https://3draven.github.io"
+exclude: [docs]
