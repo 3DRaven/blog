@@ -3,6 +3,8 @@ layout: post
 title: "Трекер задач, в котором работают ИИ: TaskForge, Obsidian, Syncthing и пара ассистентов"
 date: 2026-10-15 19:00:00 +0300
 categories: [ai, selfhosted]
+description: "Свой трекер задач, в который пустил работать ИИ: задачи в Markdown-файлах, синхронизация между телефоном, ноутбуком и Linux-боксом, TaskForge, Obsidian, CLI, MCP и два вида ИИ-ассистентов. Как это устроено, какие правила пришлось ввести и где я наступил на грабли."
+image: /assets/images/taskforge-cover.png
 ---
 
 ![TaskForge, Obsidian, Syncthing и ИИ-ассистенты]({{ "/assets/images/taskforge-cover.png" | relative_url }})
