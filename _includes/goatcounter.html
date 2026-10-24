@@ -1,34 +1,7 @@
 <style>
 .gc-views{margin:1em 0 0;color:#666;font-size:.9em}
 .gc-total{margin:0 0 1.25em;color:#666;font-size:.95em}
-.gc-views iframe,.gc-total iframe{border:0;display:block;margin:.35em 0 0;width:200px;height:60px;overflow:hidden}
+.gc-views img,.gc-total img{display:block;margin:.35em 0 0;width:200px;height:60px;border:0}
 </style>
 <script data-goatcounter="https://3draven.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
-<script>
-(function () {
-  /* .json visitor-counter returns 0/404 here; .html shows real counts. */
-  function setCount(el, path) {
-    var iframe = document.createElement('iframe');
-    iframe.src = 'https://3draven.goatcounter.com/counter/' +
-      encodeURIComponent(path) + '.html?no_branding=1';
-    iframe.setAttribute('frameborder', '0');
-    iframe.setAttribute('scrolling', 'no');
-    iframe.setAttribute('title', 'views');
-    iframe.width = '200';
-    iframe.height = '60';
-    el.textContent = '';
-    el.appendChild(iframe);
-  }
-  function run() {
-    document.querySelectorAll('[data-gc-path]').forEach(function (el) {
-      setCount(el, el.getAttribute('data-gc-path'));
-    });
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', run);
-  } else {
-    run();
-  }
-})();
-</script>
