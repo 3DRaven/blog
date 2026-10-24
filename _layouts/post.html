@@ -19,7 +19,7 @@ layout: default
     {{ content }}
   </div>
 
-  <p class="gc-views">Просмотров: <span data-gc-path="{{ page.url | relative_url }}">…</span></p>
+  <p class="gc-views"><span data-gc-path="{{ page.url | relative_url }}">…</span></p>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

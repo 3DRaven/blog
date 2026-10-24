@@ -1,29 +1,22 @@
 <style>
 .gc-views{margin:1em 0 0;color:#666;font-size:.9em}
 .gc-total{margin:0 0 1.25em;color:#666;font-size:.95em}
-.gc-views iframe,.gc-total iframe{border:0;vertical-align:-2px;width:3.2em;height:1.15em;overflow:hidden}
+.gc-views iframe,.gc-total iframe{border:0;display:block;margin:.35em 0 0;width:200px;height:60px;overflow:hidden}
 </style>
 <script data-goatcounter="https://3draven.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 <script>
 (function () {
-  /* GoatCounter .json visitor-counter currently returns 0/404 here while .html is correct. */
-  var style = [
-    'body{margin:0;padding:0;background:transparent}',
-    'div{width:auto;height:auto;border:0;text-align:left;line-height:1.15;overflow:hidden;',
-    'color:#666;font-weight:normal;font-family:system-ui,sans-serif;background:transparent}',
-    '#gcvc-for,#gcvc-by{display:none!important}',
-    '#gcvc-views{font-size:14px;color:#666}'
-  ].join('');
+  /* .json visitor-counter returns 0/404 here; .html shows real counts. */
   function setCount(el, path) {
     var iframe = document.createElement('iframe');
     iframe.src = 'https://3draven.goatcounter.com/counter/' +
-      encodeURIComponent(path) + '.html?no_branding=1&style=' + encodeURIComponent(style);
+      encodeURIComponent(path) + '.html?no_branding=1';
     iframe.setAttribute('frameborder', '0');
     iframe.setAttribute('scrolling', 'no');
     iframe.setAttribute('title', 'views');
-    iframe.width = '52';
-    iframe.height = '18';
+    iframe.width = '200';
+    iframe.height = '60';
     el.textContent = '';
     el.appendChild(iframe);
   }
