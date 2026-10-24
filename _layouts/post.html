@@ -19,9 +19,9 @@ layout: default
     {{ content }}
   </div>
 
-  <p class="gc-views"><span class="gc-label">Просмотров:</span><span class="gc-count"><img
-        src="https://3draven.goatcounter.com/counter/{{ page.url | relative_url | url_encode }}.svg?no_branding=1"
-        width="200" height="60" alt="" loading="lazy"></span></p>
+  <p class="ca-views"><span class="ca-label">Просмотров:</span>
+    <span class="counterapi" key="{{ page.url | relative_url }}" ns="3draven.github.io" action="view"
+          noIcon="true" noCss="true" noLink="true" noAnim="true" noFormatting="true" color="#828282"></span></p>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

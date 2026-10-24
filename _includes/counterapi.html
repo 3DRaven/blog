@@ -1,0 +1,25 @@
+<style>
+.ca-views,.ca-total{
+  display:flex;align-items:baseline;flex-wrap:wrap;gap:.35em;
+  margin:.75em 0 0;color:#828282;font-size:.9em;line-height:1.5;
+}
+.ca-total{margin:0 0 1.25em;font-size:.95em}
+.ca-label{color:#828282}
+.counterapi,.counterapi .c,.counterapi .thecount,.counterapi .count,.counterapi .iconAndCount{
+  display:inline;color:#828282!important;font:inherit;background:transparent!important;
+  border:0;padding:0;margin:0;line-height:inherit;vertical-align:baseline;
+}
+.counterapi .coulstripemini,.counterapi svg,.counterapi .a{display:none!important}
+.counterapi .thecount .count + *{display:none}
+</style>
+{%- comment -%}
+  CounterAPI's embed.js only skips its own jQuery loader when window.jQuery is exactly 1.8.3.
+  Their fallback uses protocol-relative //ajax.googleapis.com, which breaks on http previews.
+  Preload 1.8.3 over https so the widget can run on http and https.
+{%- endcomment -%}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+{%- unless page.layout == "home" -%}
+<span class="counterapi" key="site" ns="3draven.github.io" action="view"
+      invisible="true" noIcon="true" noCss="true" noLink="true" noAnim="true"></span>
+{%- endunless -%}
+<script src="https://counterapi.com/counterapi.embed.js"></script>

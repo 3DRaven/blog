@@ -3,9 +3,9 @@ layout: default
 ---
 {%- comment -%} minima home with a cover image and the post description, like the Habr article list {%- endcomment -%}
 <div class="home">
-  <p class="gc-total"><span class="gc-label">Посещений сайта:</span><span class="gc-count"><img
-    src="https://3draven.goatcounter.com/counter/TOTAL.svg?no_branding=1"
-    width="200" height="60" alt="" loading="lazy"></span></p>
+  <p class="ca-total"><span class="ca-label">Посещений сайта:</span>
+    <span class="counterapi" key="site" ns="3draven.github.io" action="view"
+          noIcon="true" noCss="true" noLink="true" noAnim="true" noFormatting="true" color="#828282"></span></p>
   {{ content }}
   <ul class="post-list">
     {%- for post in site.posts -%}
@@ -16,9 +16,10 @@ layout: default
       <a href="{{ post.url | relative_url }}"><img class="post-cover" src="{{ post.image | relative_url }}" alt="" loading="lazy"></a>
       {%- endif -%}
       <p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 80 }}</p>
-      <p class="gc-views"><span class="gc-label">Просмотров:</span><span class="gc-count"><img
-        src="https://3draven.goatcounter.com/counter/{{ post.url | relative_url | url_encode }}.svg?no_branding=1"
-        width="200" height="60" alt="" loading="lazy"></span></p>
+      <p class="ca-views"><span class="ca-label">Просмотров:</span>
+        <span class="counterapi" key="{{ post.url | relative_url }}" ns="3draven.github.io" action="view"
+              readOnly="true" hideIfZero="true"
+              noIcon="true" noCss="true" noLink="true" noAnim="true" noFormatting="true" color="#828282"></span></p>
       <a href="{{ post.url | relative_url }}">Читать далее →</a>
     </li>
     {%- endfor -%}
