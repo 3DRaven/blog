@@ -3,7 +3,7 @@ layout: default
 ---
 {%- comment -%} minima home with a cover image and the post description, like the Habr article list {%- endcomment -%}
 <div class="home">
-  <p class="gc-total">Посещений сайта:<span class="gc-count"><img
+  <p class="gc-total"><span class="gc-label">Посещений сайта:</span><span class="gc-count"><img
     src="https://3draven.goatcounter.com/counter/TOTAL.svg?no_branding=1"
     width="200" height="60" alt="" loading="lazy"></span></p>
   {{ content }}
@@ -16,7 +16,7 @@ layout: default
       <a href="{{ post.url | relative_url }}"><img class="post-cover" src="{{ post.image | relative_url }}" alt="" loading="lazy"></a>
       {%- endif -%}
       <p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 80 }}</p>
-      <p class="gc-views">Просмотров:<span class="gc-count"><img
+      <p class="gc-views"><span class="gc-label">Просмотров:</span><span class="gc-count"><img
         src="https://3draven.goatcounter.com/counter/{{ post.url | relative_url | url_encode }}.svg?no_branding=1"
         width="200" height="60" alt="" loading="lazy"></span></p>
       <a href="{{ post.url | relative_url }}">Читать далее →</a>
@@ -28,6 +28,4 @@ layout: default
 <style>
   .post-card { margin-bottom: 2.5em; }
   .post-cover { display: block; width: 100%; max-height: 360px; object-fit: cover; border-radius: 6px; margin: .5em 0; }
-  .gc-total { margin: 0 0 1.25em; color: #666; font-size: 0.95em; }
-  .gc-views { margin: 0.4em 0; color: #666; font-size: 0.9em; }
 </style>

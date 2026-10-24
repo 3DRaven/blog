@@ -1,23 +1,23 @@
 <style>
 .gc-views,.gc-total{
+  display:flex;align-items:baseline;flex-wrap:wrap;gap:.35em;
   margin:.75em 0 0;color:#828282;font-size:.9em;line-height:1.5;
 }
 .gc-total{margin:0 0 1.25em;font-size:.95em}
-/* inline digit from GoatCounter SVG: hide chrome, match body text */
+.gc-label{color:#828282}
 .gc-count{
   display:inline-block;position:relative;
-  width:1.6em;height:1em;overflow:hidden;
-  vertical-align:-.05em;margin:0 0 0 .2em;
-  background:#fff;
+  width:1.75em;height:1.05em;overflow:hidden;
+  flex:0 0 auto;vertical-align:baseline;
+  background:#fff;isolation:isolate;
 }
 .gc-count img{
-  position:absolute;left:50%;top:100%;
+  position:absolute;left:50%;bottom:0;
   width:200px;height:60px;max-width:none;border:0;
-  transform:translate(-50%,-52%) scale(.42);
+  transform:translate(-50%,18%) scale(.38);
   transform-origin:center bottom;
-  /* kill purple → near #828282 minima gray */
-  filter:grayscale(1) brightness(1.15) contrast(.85);
-  background:#fff;
+  filter:grayscale(1) contrast(.9) brightness(1.05);
+  background:#fff;pointer-events:none;
 }
 </style>
 <script data-goatcounter="https://3draven.goatcounter.com/count"
