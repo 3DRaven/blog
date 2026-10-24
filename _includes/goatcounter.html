@@ -5,18 +5,19 @@
 }
 .gc-total{margin:0 0 1.25em;font-size:.95em}
 .gc-label{color:#828282}
+/* SVG is 200×60: label ~y18, digit ~y48 — show only digit band */
 .gc-count{
   display:inline-block;position:relative;
-  width:1.75em;height:1.05em;overflow:hidden;
-  flex:0 0 auto;vertical-align:baseline;
-  background:#fff;isolation:isolate;
+  width:2em;height:1.05em;overflow:hidden;
+  flex:0 0 auto;background:#fff;isolation:isolate;
 }
 .gc-count img{
-  position:absolute;left:50%;bottom:0;
+  position:absolute;left:50%;top:0;
   width:200px;height:60px;max-width:none;border:0;
-  transform:translate(-50%,18%) scale(.38);
-  transform-origin:center bottom;
-  filter:grayscale(1) contrast(.9) brightness(1.05);
+  /* shift up so only the digit (lower half) sits in the window */
+  transform:translate(-50%,-72%) scale(.55);
+  transform-origin:center top;
+  filter:grayscale(1) contrast(.95) brightness(1.08);
   background:#fff;pointer-events:none;
 }
 </style>
