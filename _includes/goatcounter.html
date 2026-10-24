@@ -1,7 +1,16 @@
-<style>
-.gc-views{margin:1em 0 0;color:#666;font-size:.9em}
-.gc-total{margin:0 0 1.25em;color:#666;font-size:.95em}
-.gc-views img,.gc-total img{display:block;margin:.35em 0 0;width:200px;height:60px;border:0}
-</style>
+<script>
+var t = setInterval(function () {
+  if (window.goatcounter && window.goatcounter.visit_count) {
+    clearInterval(t);
+    document.querySelectorAll('[data-gc-path]').forEach(function (el) {
+      window.goatcounter.visit_count({
+        append: el,
+        path: el.getAttribute('data-gc-path'),
+        no_branding: true
+      });
+    });
+  }
+}, 100);
+</script>
 <script data-goatcounter="https://3draven.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

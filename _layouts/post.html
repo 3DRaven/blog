@@ -19,10 +19,7 @@ layout: default
     {{ content }}
   </div>
 
-  <p class="gc-views">Просмотров:
-  <img src="https://3draven.goatcounter.com/counter/{{ page.url | relative_url | url_encode }}.png?no_branding=1"
-       width="200" height="60" alt="просмотры" loading="lazy">
-</p>
+  <p class="gc-views"><span data-gc-path="{{ page.url | relative_url }}"></span></p>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
