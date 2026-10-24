@@ -3,7 +3,9 @@ layout: default
 ---
 {%- comment -%} minima home with a cover image and the post description, like the Habr article list {%- endcomment -%}
 <div class="home">
-  <p class="gc-total"><span data-gc-path="TOTAL"></span></p>
+  <p class="gc-total">Посещений сайта:<span class="gc-count"><img
+    src="https://3draven.goatcounter.com/counter/TOTAL.svg?no_branding=1"
+    width="200" height="60" alt="" loading="lazy"></span></p>
   {{ content }}
   <ul class="post-list">
     {%- for post in site.posts -%}
@@ -14,7 +16,9 @@ layout: default
       <a href="{{ post.url | relative_url }}"><img class="post-cover" src="{{ post.image | relative_url }}" alt="" loading="lazy"></a>
       {%- endif -%}
       <p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 80 }}</p>
-      <p class="gc-views"><span data-gc-path="{{ post.url | relative_url }}"></span></p>
+      <p class="gc-views">Просмотров:<span class="gc-count"><img
+        src="https://3draven.goatcounter.com/counter/{{ post.url | relative_url | url_encode }}.svg?no_branding=1"
+        width="200" height="60" alt="" loading="lazy"></span></p>
       <a href="{{ post.url | relative_url }}">Читать далее →</a>
     </li>
     {%- endfor -%}
