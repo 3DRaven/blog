@@ -19,10 +19,6 @@ layout: default
     {{ content }}
   </div>
 
-  <p class="ca-views"><span class="ca-label">Просмотров:</span>
-    <span class="counterapi" key="{{ page.url | relative_url }}" ns="3draven.github.io" action="view"
-          noIcon="true" noCss="true" noLink="true" noAnim="true" noFormatting="true" color="#828282"></span></p>
-
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
