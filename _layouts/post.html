@@ -19,9 +19,17 @@ layout: default
     {{ content }}
   </div>
 
+  {%- capture hit_page_url -%}{{ site.url }}{{ page.url | relative_url }}{%- endcapture -%}
+  <p class="hit-line"><span class="hit-label">Просмотров:</span> {% include hitscounter.html url=hit_page_url %}</p>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+<style>
+  .hit-line { margin: .75em 0 0; color: #828282; font-size: .9em; display: flex; align-items: center; flex-wrap: wrap; gap: .4em; }
+  .hit-label { color: #828282; }
+  .hit-badge { vertical-align: middle; height: 20px; }
+</style>

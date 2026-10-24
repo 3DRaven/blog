@@ -1,0 +1,8 @@
+{%- comment -%}
+  hitscounter.dev SVG badge. url= must be the canonical absolute page URL.
+  Pass include.url (absolute) or it defaults to the site home.
+{%- endcomment -%}
+{%- capture hit_abs -%}{% if include.url %}{{ include.url }}{% else %}{{ site.url }}{{ "/" | relative_url }}{% endif %}{%- endcapture -%}
+<img class="hit-badge"
+  src="https://hitscounter.dev/api/hit?url={{ hit_abs | strip | url_encode }}&amp;label=&amp;icon=github&amp;color=%23198754&amp;message=&amp;style=flat&amp;tz=UTC"
+  alt="" loading="lazy" decoding="async">
