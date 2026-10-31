@@ -28,6 +28,14 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+{%- if page.mermaid -%}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, securityLevel: 'strict', flowchart: { useMaxWidth: false } });
+</script>
+<style>.post-content pre.mermaid { background: #fff; border: 0; overflow-x: auto; }</style>
+{%- endif -%}
+
 <style>
   .hit-line { margin: .75em 0 0; color: #828282; font-size: .9em; display: flex; align-items: center; flex-wrap: wrap; gap: .4em; }
   .hit-label { color: #828282; }
