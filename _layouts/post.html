@@ -29,11 +29,53 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 {%- if page.mermaid -%}
+<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true, securityLevel: 'strict', flowchart: { useMaxWidth: false } });
+  mermaid.initialize({ startOnLoad: false, securityLevel: 'strict', flowchart: { useMaxWidth: false } });
+  // Pinch-to-zoom and touch pan for svg-pan-zoom via Hammer.js
+  const touchHandler = {
+    haltEventListeners: ['touchstart', 'touchend', 'touchmove', 'touchleave', 'touchcancel'],
+    init(o) {
+      const inst = o.instance; let initialScale = 1, pannedX = 0, pannedY = 0;
+      this.hammer = new Hammer(o.svgElement, { inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput });
+      this.hammer.get('pinch').set({ enable: true });
+      this.hammer.get('pan').set({ direction: Hammer.DIRECTION_ALL });
+      this.hammer.on('doubletap', () => inst.zoomIn());
+      this.hammer.on('panstart panmove', ev => {
+        if (ev.type === 'panstart') { pannedX = 0; pannedY = 0; }
+        inst.panBy({ x: ev.deltaX - pannedX, y: ev.deltaY - pannedY }); pannedX = ev.deltaX; pannedY = ev.deltaY;
+      });
+      this.hammer.on('pinchstart pinchmove', ev => {
+        if (ev.type === 'pinchstart') { initialScale = inst.getZoom(); }
+        inst.zoomAtPoint(initialScale * ev.scale, { x: ev.center.x, y: ev.center.y });
+      });
+      o.svgElement.addEventListener('touchmove', e => e.preventDefault(), { passive: false });
+    },
+    destroy() { this.hammer.destroy(); }
+  };
+  await mermaid.run({ querySelector: 'pre.mermaid' });
+  window.mermaidPanZoom = [];
+  document.querySelectorAll('pre.mermaid > svg').forEach(svg => {
+    const vb = svg.viewBox.baseVal, h = vb && vb.height ? vb.height : svg.getBBox().height;
+    const box = svg.parentElement; box.classList.add('mmd-pz');
+    svg.removeAttribute('width'); svg.style.maxWidth = 'none';
+    svg.style.width = '100%'; svg.style.height = Math.min(Math.max(h + 20, 220), window.innerHeight * 0.85) + 'px';
+    const pz = svgPanZoom(svg, { zoomEnabled: true, panEnabled: true, controlIconsEnabled: true, mouseWheelZoomEnabled: true,
+      dblClickZoomEnabled: true, fit: true, center: true, minZoom: 0.2, maxZoom: 30, zoomScaleSensitivity: 0.3, customEventsHandler: touchHandler });
+    // Tall canvases: start readable (width-fit, top-aligned) instead of shrinking everything; «reset» shows the whole canvas.
+    const sz = pz.getSizes(), target = Math.min(1, sz.width / sz.viewBox.width);
+    if (sz.realZoom < 0.6 * target) { pz.zoom(target / sz.realZoom); pz.pan({ x: (sz.width - sz.viewBox.width * target) / 2, y: 0 }); }
+    window.mermaidPanZoom.push(pz);
+  });
+  window.MERMAID_PZ_READY = window.mermaidPanZoom.length;
 </script>
-<style>.post-content pre.mermaid { background: #fff; border: 0; overflow-x: auto; }</style>
+<style>
+  .post-content pre.mermaid { background: #fff; border: 1px solid #e3e3e3; overflow: hidden; padding: 0; cursor: grab; touch-action: none; }
+  .post-content pre.mermaid:active { cursor: grabbing; }
+  .post-content pre.mermaid .svg-pan-zoom-control { opacity: .85; }
+</style>
 {%- endif -%}
 
 <style>

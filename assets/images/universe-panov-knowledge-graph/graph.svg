@@ -2,16 +2,16 @@
 <defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#888"/></marker></defs>
 <line x1="423.2" y1="146.4" x2="413.8" y2="111.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="675.1" y1="92.4" x2="643.9" y2="53.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="1114.8" y1="91.3" x2="1095.2" y2="54.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="1090.0" y1="90.0" x2="1090.0" y2="56.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="170.0" y1="90.0" x2="170.0" y2="56.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="178.0" y1="93.5" x2="222.0" y2="52.5" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="383.8" y1="314.4" x2="393.2" y2="279.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="787.2" y1="442.4" x2="777.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="974.8" y1="442.4" x2="984.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="382.0" y1="498.0" x2="382.0" y2="464.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="74.8" y1="91.3" x2="55.2" y2="54.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="408.2" y1="314.4" x2="398.8" y2="279.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="999.2" y1="442.4" x2="989.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="412.0" y1="498.0" x2="412.0" y2="464.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="102.0" y1="93.5" x2="58.0" y2="52.5" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="408.2" y1="314.4" x2="398.8" y2="279.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="974.8" y1="442.4" x2="984.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="55.2" y1="499.3" x2="74.8" y2="462.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="944.2" y1="203.3" x2="963.8" y2="166.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="938.0" y1="202.0" x2="925.0" y2="56.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
@@ -28,15 +28,15 @@
 <line x1="1253.2" y1="146.4" x2="1243.8" y2="111.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="1290.0" y1="498.0" x2="1290.0" y2="464.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="1290.0" y1="442.0" x2="1290.0" y2="408.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="102.0" y1="93.5" x2="58.0" y2="52.5" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="384.8" y1="442.4" x2="394.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="74.8" y1="91.3" x2="55.2" y2="54.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="409.2" y1="442.4" x2="399.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="127.8" y1="146.4" x2="137.2" y2="111.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="378.2" y1="90.4" x2="368.8" y2="55.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="1065.2" y1="91.3" x2="1084.8" y2="54.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="147.5" y1="205.0" x2="57.5" y2="109.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="155.0" y1="202.0" x2="155.0" y2="168.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="406.8" y1="499.3" x2="387.2" y2="462.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="624.8" y1="90.4" x2="634.2" y2="55.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="387.2" y1="499.3" x2="406.8" y2="462.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="649.2" y1="90.4" x2="639.8" y2="55.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="1196.2" y1="442.4" x2="1186.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="1201.8" y1="442.4" x2="1211.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="413.8" y1="202.4" x2="423.2" y2="167.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
@@ -49,7 +49,7 @@
 <line x1="1197.5" y1="146.1" x2="1209.5" y2="55.9" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="1228.8" y1="146.4" x2="1238.2" y2="111.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="260.0" y1="90.0" x2="260.0" y2="56.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="545.2" y1="442.4" x2="535.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="520.8" y1="442.4" x2="530.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="818.0" y1="146.0" x2="818.0" y2="112.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="816.5" y1="146.1" x2="804.5" y2="55.9" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="819.5" y1="146.1" x2="831.5" y2="55.9" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
@@ -61,16 +61,16 @@
 <line x1="132.0" y1="93.5" x2="88.0" y2="52.5" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="134.8" y1="91.3" x2="115.2" y2="54.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="419.1" y1="260.4" x2="387.9" y2="221.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="649.2" y1="90.4" x2="639.8" y2="55.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="624.8" y1="90.4" x2="634.2" y2="55.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="841.1" y1="92.4" x2="809.9" y2="53.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="845.2" y1="90.4" x2="835.8" y2="55.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="430.0" y1="626.0" x2="430.0" y2="592.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="413.8" y1="90.4" x2="423.2" y2="55.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="520.8" y1="442.4" x2="530.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="545.2" y1="442.4" x2="535.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="453.2" y1="258.4" x2="398.8" y2="55.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="447.2" y1="262.4" x2="389.8" y2="219.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="451.5" y1="259.0" x2="385.5" y2="111.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="1120.0" y1="146.0" x2="1120.0" y2="112.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="1114.8" y1="147.3" x2="1095.2" y2="110.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="371.2" y1="147.3" x2="420.8" y2="54.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="368.8" y1="146.4" x2="378.2" y2="111.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="156.5" y1="146.1" x2="168.5" y2="55.9" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
@@ -100,19 +100,19 @@
 <line x1="959.2" y1="91.3" x2="978.8" y2="54.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="540.8" y1="94.4" x2="598.2" y2="51.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="760.8" y1="90.4" x2="770.2" y2="55.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="80.0" y1="498.0" x2="80.0" y2="464.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="132.0" y1="501.5" x2="88.0" y2="460.5" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="80.0" y1="498.0" x2="80.0" y2="464.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="656.8" y1="442.4" x2="666.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="107.2" y1="442.4" x2="97.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="868.8" y1="442.4" x2="878.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="782.8" y1="147.3" x2="763.2" y2="110.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="793.2" y1="147.3" x2="812.8" y2="110.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="126.0" y1="626.0" x2="126.0" y2="592.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="409.2" y1="442.4" x2="399.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="384.8" y1="442.4" x2="394.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="202.0" y1="626.0" x2="202.0" y2="592.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="598.9" y1="92.4" x2="630.1" y2="53.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="293.8" y1="442.4" x2="303.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="1090.0" y1="90.0" x2="1090.0" y2="56.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="1114.8" y1="91.3" x2="1095.2" y2="54.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="568.9" y1="92.4" x2="600.1" y2="53.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="570.8" y1="94.4" x2="628.2" y2="51.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="893.2" y1="442.4" x2="883.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
@@ -124,7 +124,7 @@
 <line x1="200.0" y1="90.0" x2="200.0" y2="56.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="208.0" y1="93.5" x2="252.0" y2="52.5" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="1084.8" y1="203.3" x2="1065.2" y2="166.7" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
-<line x1="1092.8" y1="202.4" x2="1117.2" y2="111.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
+<line x1="1090.0" y1="202.0" x2="1090.0" y2="112.0" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="762.8" y1="442.4" x2="772.2" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="1105.2" y1="442.4" x2="1095.8" y2="407.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
 <line x1="182.2" y1="146.4" x2="172.8" y2="111.6" stroke="#999" stroke-width="0.8" marker-end="url(#a)"/>
@@ -132,8 +132,8 @@
 <g><title>№240 искусственное рождение вселенных как футурология</title><circle cx="155.0" cy="157.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="155.0" y="160.0" text-anchor="middle">240</text></g>
 <g><title>№109 малая вероятность самосборки жизни не парадокс в мире вечной инфляции</title><circle cx="185.0" cy="157.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="185.0" y="160.0" text-anchor="middle">109</text></g>
 <g><title>№105 единый генетический код проверяемое следствие</title><circle cx="50.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="50.0" y="104.0" text-anchor="middle">105</text></g>
-<g><title>№239 жизнь могла быть принесена из другой вселенной</title><circle cx="80.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="80.0" y="104.0" text-anchor="middle">239</text></g>
-<g><title>№110 на Земле мало времени для пребиотической эволюции</title><circle cx="110.0" cy="101.0" r="11" fill="#e53935" stroke="#555" stroke-width="1"/><text x="110.0" y="104.0" text-anchor="middle">110</text></g>
+<g><title>№110 на Земле мало времени для пребиотической эволюции</title><circle cx="80.0" cy="101.0" r="11" fill="#e53935" stroke="#555" stroke-width="1"/><text x="80.0" y="104.0" text-anchor="middle">110</text></g>
+<g><title>№239 жизнь могла быть принесена из другой вселенной</title><circle cx="110.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="110.0" y="104.0" text-anchor="middle">239</text></g>
 <g><title>№117 пять информационных уровней сигнатур генетического кода</title><circle cx="140.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="140.0" y="104.0" text-anchor="middle">117</text></g>
 <g><title>№237 вечность Мультиверса реализует сколь угодно редкие события</title><circle cx="170.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="170.0" y="104.0" text-anchor="middle">237</text></g>
 <g><title>№251 тонкая настройка объясняется слабым антропным в Мультиверсе</title><circle cx="200.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="200.0" y="104.0" text-anchor="middle">251</text></g>
@@ -173,8 +173,8 @@
 <g><title>№47 Назаретян антропогенные кризисы и культурные революции</title><circle cx="532.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="532.0" y="104.0" text-anchor="middle">47</text></g>
 <g><title>№59 Панов закон техно-гуманитарного баланса Назаретяна как термин</title><circle cx="562.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="562.0" y="104.0" text-anchor="middle">59</text></g>
 <g><title>№60 Панов квинтэссенция Назаретяна эндо-экзогенный кризис</title><circle cx="592.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="592.0" y="104.0" text-anchor="middle">60</text></g>
-<g><title>№45 кислородный кризис первый глобальный эндоэкзогенный</title><circle cx="622.0" cy="101.0" r="11" fill="#43a047" stroke="#555" stroke-width="1"/><text x="622.0" y="104.0" text-anchor="middle">45</text></g>
-<g><title>№68 Панов макроэволюция науки и положительная обратная связь финансирования</title><circle cx="652.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="652.0" y="104.0" text-anchor="middle">68</text></g>
+<g><title>№68 Панов макроэволюция науки и положительная обратная связь финансирования</title><circle cx="622.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="622.0" y="104.0" text-anchor="middle">68</text></g>
+<g><title>№45 кислородный кризис первый глобальный эндоэкзогенный</title><circle cx="652.0" cy="101.0" r="11" fill="#43a047" stroke="#555" stroke-width="1"/><text x="652.0" y="104.0" text-anchor="middle">45</text></g>
 <g><title>№70 Панов наука лидер макроэволюции и риск ресурсного коллапса</title><circle cx="682.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="682.0" y="104.0" text-anchor="middle">70</text></g>
 <g><title>№271 анизотропия реликта как квантовая флуктуация инфлатона связывает космологию с макросостояниями</title><circle cx="773.0" cy="45.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="773.0" y="48.0" text-anchor="middle">271</text></g>
 <g><title>№278 квантовая теория есть теория ансамблей а не единичных систем</title><circle cx="803.0" cy="45.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="803.0" y="48.0" text-anchor="middle">278</text></g>
@@ -197,10 +197,10 @@
 <g><title>№171 первая найденная цивилизация будет сильно продвинутой</title><circle cx="1090.0" cy="157.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1090.0" y="160.0" text-anchor="middle">171</text></g>
 <g><title>№196 SETI партнёры это постсингулярные цивилизации</title><circle cx="1120.0" cy="157.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1120.0" y="160.0" text-anchor="middle">196</text></g>
 <g><title>№181 формула Дрейка рамка оценки в КОСМИКОН</title><circle cx="1060.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1060.0" y="104.0" text-anchor="middle">181</text></g>
-<g><title>№150 коммуникативные цивилизации конечная фаза L</title><circle cx="1090.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1090.0" y="104.0" text-anchor="middle">150</text></g>
-<g><title>№179 технологическая фаза цивилизации длится сотни лет</title><circle cx="1120.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1120.0" y="104.0" text-anchor="middle">179</text></g>
-<g><title>№180 формула Дрейка оценка цивилизаций</title><circle cx="1090.0" cy="45.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1090.0" y="48.0" text-anchor="middle">180</text></g>
+<g><title>№179 технологическая фаза цивилизации длится сотни лет</title><circle cx="1090.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1090.0" y="104.0" text-anchor="middle">179</text></g>
+<g><title>№150 коммуникативные цивилизации конечная фаза L</title><circle cx="1120.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1120.0" y="104.0" text-anchor="middle">150</text></g>
 <g><title>№184 цивилизаций нашего типа в Галактике около одной</title><circle cx="1090.0" cy="213.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1090.0" y="216.0" text-anchor="middle">184</text></g>
+<g><title>№180 формула Дрейка оценка цивилизаций</title><circle cx="1090.0" cy="45.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1090.0" y="48.0" text-anchor="middle">180</text></g>
 <g><title>№222 главное препятствие сильного ИИ не мощность компьютеров</title><circle cx="1211.0" cy="101.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1211.0" y="104.0" text-anchor="middle">222</text></g>
 <g><title>№232 теорема Гёделя-Тьюринга запрещает сильный ИИ на конечных автоматах</title><circle cx="1241.0" cy="101.0" r="11" fill="#e53935" stroke="#555" stroke-width="1"/><text x="1241.0" y="104.0" text-anchor="middle">232</text></g>
 <g><title>№223 конечный автомат допускает исчерпывающее описание алгоритма</title><circle cx="1211.0" cy="45.0" r="11" fill="#1e88e5" stroke="#555" stroke-width="1"/><text x="1211.0" y="48.0" text-anchor="middle">223</text></g>
@@ -210,9 +210,9 @@
 <g><title>№233 теорема Гёделя-Тьюринга не тождественна теореме Пенроуза</title><circle cx="1256.0" cy="157.0" r="11" fill="#fb8c00" stroke="#7b1f1f" stroke-width="3.5"/><text x="1256.0" y="160.0" text-anchor="middle">233</text></g>
 <g><title>№227 невычислимость требует невычислимой физики внутри мозга</title><circle cx="1226.0" cy="213.0" r="11" fill="#eeeeee" stroke="#7b1f1f" stroke-width="3.5"/><text x="1226.0" y="216.0" text-anchor="middle">227</text></g>
 <g><title>№64 информационный кризис науки толкает к культурному полю</title><circle cx="50.0" cy="509.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="50.0" y="512.0" text-anchor="middle">64</text></g>
-<g><title>№172 первый сигнал открывает всё культурное поле</title><circle cx="80.0" cy="509.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="80.0" y="512.0" text-anchor="middle">172</text></g>
+<g><title>№178 сильная коммуникативность как ответ на кризис</title><circle cx="80.0" cy="509.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="80.0" y="512.0" text-anchor="middle">178</text></g>
 <g><title>№144 императив подкормки культурного поля Active SETI</title><circle cx="110.0" cy="509.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="110.0" y="512.0" text-anchor="middle">144</text></g>
-<g><title>№178 сильная коммуникативность как ответ на кризис</title><circle cx="140.0" cy="509.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="140.0" y="512.0" text-anchor="middle">178</text></g>
+<g><title>№172 первый сигнал открывает всё культурное поле</title><circle cx="140.0" cy="509.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="140.0" y="512.0" text-anchor="middle">172</text></g>
 <g><title>№139 галактическое культурное поле через ретрансляцию</title><circle cx="80.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="80.0" y="456.0" text-anchor="middle">139</text></g>
 <g><title>№145 интенсивный путь вместо скорой космической экспансии</title><circle cx="110.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="110.0" y="456.0" text-anchor="middle">145</text></g>
 <g><title>№204 экзогуманитарная цивилизация определение Панова</title><circle cx="95.0" cy="397.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="95.0" y="400.0" text-anchor="middle">204</text></g>
@@ -224,14 +224,14 @@
 <g><title>№261 непротиворечивость математической теории эквивалентна объективному существованию её объектов</title><circle cx="276.0" cy="397.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="276.0" y="400.0" text-anchor="middle">261</text></g>
 <g><title>№262 объективно познаваемое объективно существует критерии воспроизводимого метода и независимого открытия</title><circle cx="306.0" cy="397.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="306.0" y="400.0" text-anchor="middle">262</text></g>
 <g><title>№135 SETI искать редкие эпизодические сигналы</title><circle cx="397.0" cy="397.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="397.0" y="400.0" text-anchor="middle">135</text></g>
-<g><title>№194 цель короткие лазерные импульсы цивилизаций I типа</title><circle cx="382.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="382.0" y="456.0" text-anchor="middle">194</text></g>
-<g><title>№189 HiSCORE оптический SETI широкого поля</title><circle cx="412.0" cy="453.0" r="11" fill="#43a047" stroke="#555" stroke-width="1"/><text x="412.0" y="456.0" text-anchor="middle">189</text></g>
-<g><title>№193 оптика проще радио для всенаправленного SETI</title><circle cx="382.0" cy="509.0" r="11" fill="#43a047" stroke="#555" stroke-width="1"/><text x="382.0" y="512.0" text-anchor="middle">193</text></g>
-<g><title>№190 TAIGA-HiSCORE в Тунке черенковские импульсы как SETI</title><circle cx="412.0" cy="509.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="412.0" y="512.0" text-anchor="middle">190</text></g>
+<g><title>№189 HiSCORE оптический SETI широкого поля</title><circle cx="382.0" cy="453.0" r="11" fill="#43a047" stroke="#555" stroke-width="1"/><text x="382.0" y="456.0" text-anchor="middle">189</text></g>
+<g><title>№194 цель короткие лазерные импульсы цивилизаций I типа</title><circle cx="412.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="412.0" y="456.0" text-anchor="middle">194</text></g>
+<g><title>№190 TAIGA-HiSCORE в Тунке черенковские импульсы как SETI</title><circle cx="382.0" cy="509.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="382.0" y="512.0" text-anchor="middle">190</text></g>
+<g><title>№193 оптика проще радио для всенаправленного SETI</title><circle cx="412.0" cy="509.0" r="11" fill="#43a047" stroke="#555" stroke-width="1"/><text x="412.0" y="512.0" text-anchor="middle">193</text></g>
 <g><title>№257 квантовую теорию можно представить локальными скрытыми переменными через слои реальности</title><circle cx="533.0" cy="397.0" r="11" fill="#fb8c00" stroke="#555" stroke-width="1"/><text x="533.0" y="400.0" text-anchor="middle">257</text></g>
 <g><title>№268 физика и математика могут быть двумя пределами одной сущности</title><circle cx="488.0" cy="453.0" r="11" fill="#eeeeee" stroke="#d4b000" stroke-width="3.5"/><text x="488.0" y="456.0" text-anchor="middle">268</text></g>
-<g><title>№259 многослойная реальность может положить абсолютный предел познанию субстрата</title><circle cx="518.0" cy="453.0" r="11" fill="#eeeeee" stroke="#d4b000" stroke-width="3.5"/><text x="518.0" y="456.0" text-anchor="middle">259</text></g>
-<g><title>№265 пра-структуры квантовой гравитации напоминают связь субстрат-изображение</title><circle cx="548.0" cy="453.0" r="11" fill="#eeeeee" stroke="#d4b000" stroke-width="3.5"/><text x="548.0" y="456.0" text-anchor="middle">265</text></g>
+<g><title>№265 пра-структуры квантовой гравитации напоминают связь субстрат-изображение</title><circle cx="518.0" cy="453.0" r="11" fill="#eeeeee" stroke="#d4b000" stroke-width="3.5"/><text x="518.0" y="456.0" text-anchor="middle">265</text></g>
+<g><title>№259 многослойная реальность может положить абсолютный предел познанию субстрата</title><circle cx="548.0" cy="453.0" r="11" fill="#eeeeee" stroke="#d4b000" stroke-width="3.5"/><text x="548.0" y="456.0" text-anchor="middle">259</text></g>
 <g><title>№270 фундаментальная онтология классическая нелокальная подобна формальной системе</title><circle cx="578.0" cy="453.0" r="11" fill="#eeeeee" stroke="#d4b000" stroke-width="3.5"/><text x="578.0" y="456.0" text-anchor="middle">270</text></g>
 <g><title>№2 Дьяконов восемь фаз истории</title><circle cx="669.0" cy="397.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="669.0" y="400.0" text-anchor="middle">2</text></g>
 <g><title>№3 Дьяконов посткапиталистическая восьмая фаза</title><circle cx="654.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="654.0" y="456.0" text-anchor="middle">3</text></g>
@@ -245,8 +245,8 @@
 <g><title>№33 Снукс исчерпание стратегий двигатель смен</title><circle cx="896.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="896.0" y="456.0" text-anchor="middle">33</text></g>
 <g><title>№32 Снукс динамические стратегии общества</title><circle cx="881.0" cy="397.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="881.0" y="400.0" text-anchor="middle">32</text></g>
 <g><title>№43 закон Седова-Назаретяна</title><circle cx="987.0" cy="397.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="987.0" y="400.0" text-anchor="middle">43</text></g>
-<g><title>№65 наука механизм компенсации кризисов закон Седова</title><circle cx="972.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="972.0" y="456.0" text-anchor="middle">65</text></g>
-<g><title>№44 закон Седова-Назаретяна иерархических компенсаций</title><circle cx="1002.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1002.0" y="456.0" text-anchor="middle">44</text></g>
+<g><title>№44 закон Седова-Назаретяна иерархических компенсаций</title><circle cx="972.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="972.0" y="456.0" text-anchor="middle">44</text></g>
+<g><title>№65 наука механизм компенсации кризисов закон Седова</title><circle cx="1002.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1002.0" y="456.0" text-anchor="middle">65</text></g>
 <g><title>№141 двусторонний контакт на тысячах ly неэффективен</title><circle cx="1078.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1078.0" y="456.0" text-anchor="middle">141</text></g>
 <g><title>№160 отвечать на послание бесполезно, передачи питают культурное поле</title><circle cx="1108.0" cy="453.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1108.0" y="456.0" text-anchor="middle">160</text></g>
 <g><title>№159 ожидаемое расстояние до цивилизации тысячи световых лет</title><circle cx="1093.0" cy="397.0" r="11" fill="#eeeeee" stroke="#555" stroke-width="1"/><text x="1093.0" y="400.0" text-anchor="middle">159</text></g>
